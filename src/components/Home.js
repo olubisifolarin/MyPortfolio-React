@@ -14,7 +14,7 @@ const Home = () => {
                     </div>
 
                     <div className="">
-                        <img src={girlCarton} className="animate__animated animate__rotatein carton " alt="MyPicture" />
+                        <img src={girlCarton} className="carton " alt="MyPicture" />
                     </div>
                    
                 </div>

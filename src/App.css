@@ -164,8 +164,20 @@
     float: left;
     margin-left: 14rem;
     background-color: #ffb03b;
-    animation: bounce; 
-  animation-duration: 2s;
+    animation-name: fadeInLeftBig;
+    animation-duration: 1s; 
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInLeftBig {
+    0% {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
   
 .name{
@@ -216,6 +228,8 @@ animation: fade 3s ease-in-out infinite
     margin-top: 8rem;
   }
   /* ABOUT SECTION */
+
+
   h2 {
     font-size: 6rem;
     font-weight: 600;
