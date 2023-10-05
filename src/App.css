@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -88,7 +90,7 @@
     display: flex;
     gap: 3rem;
     list-style: none;
-    margin-left: 34%;
+    margin-left: 32%;
     margin-top: 1rem;
     font-size: 1.2rem;
   }
@@ -162,12 +164,29 @@
     float: left;
     margin-left: 14rem;
     background-color: #ffb03b;
+    animation: bounce; 
+  animation-duration: 2s;
   }
   
-  .name, span{
+.name{
+color: #ffb03b;
+animation: fade 3s ease-in-out infinite
+}
+  
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  span{
     color: #ffb03b;
   }
-  
   .home{
     display: flex;
     margin: 4rem;
@@ -236,11 +255,7 @@
     border: #ffb03b;
   
   }
-  
-  .box-title{
-    margin-left: 2rem; 
-  }
-  
+    
   .icon{
     font-size: 2rem;
     margin-left: 8.2rem;  
@@ -462,7 +477,7 @@
     float: right; 
     font-size: 2.5rem;  
     color: white;
-    margin-left: 8rem;
+    margin-left: 10rem;
   }
   
   .home, .box-container, .Tech-stack{
@@ -475,7 +490,7 @@
   }
   
   .frontend{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   
   .carton{

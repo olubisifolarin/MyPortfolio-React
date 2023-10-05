@@ -2,6 +2,7 @@ import React from "react";
 import proj1 from '../assets/proj1.png';
 import proj2 from '../assets/proj2.png';
 import project4 from '../assets/project4.png';
+import meta from '../assets/meta.png';
 
 
 const Project = () => {
@@ -48,7 +49,7 @@ const Project = () => {
 
             <div className="project-container">
                 <div className="project-image">  
-                    <img src={proj1} className="project" alt="My project" />
+                    <img src={meta} className="project" alt="My project" />
                 </div>
               
                 <div className="">
