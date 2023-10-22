@@ -1,6 +1,6 @@
 import React from "react";
 import girlCarton from '../assets/girlCarton.png';
-import UpdatedCV from '../assets/FrontendCV.pdf';
+import UpdatedCV from '../assets/UpdatedCV.pdf';
 import 'animate.css';
 
 const Home = () => {

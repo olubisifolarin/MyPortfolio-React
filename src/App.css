@@ -308,7 +308,7 @@ animation: fade 3s ease-in-out infinite
 
   .logo{
     width: 5%;
-    height: 80px;
+    height: 60px;
     margin: 2rem;
     border-radius: 50%;
     animation: roll 5s linear infinite, rotate 5s linear infinite;
