@@ -1,6 +1,6 @@
 import React from "react";
 import girlCarton from '../assets/girlCarton.png';
-import FrontendCV from '../assets/FrontendCV.pdf';
+import UpdatedCV from '../assets/FrontendCV.pdf';
 import 'animate.css';
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="home">
                     <div className="home-text" >
                         <h1>Hello, I'm <span className="name">Olubisi</span></h1>
-                        <h4 className="frontend">Frontend Web Developer</h4>
+                        <h4 className="frontend">Fullstack Developer</h4>
                         <p className="passion">"I specialize in the art of creating extraordinary websites" </p>
                     </div>
 
@@ -19,7 +19,7 @@ const Home = () => {
                    
                 </div>
 
-                <a href={FrontendCV}><button className='home-btn'>RESUME</button></a>
+                <a href={UpdatedCV}><button className='home-btn'>RESUME</button></a>
                 
             </section>
     )

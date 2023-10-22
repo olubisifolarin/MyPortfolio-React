@@ -3,7 +3,7 @@ import Box from "../constant/Box";
 import {BsWebcamFill} from 'react-icons/bs';
 import {FcSmartphoneTablet} from 'react-icons/fc';
 import {MdOutlineDesignServices} from 'react-icons/md';
-import 'animate.css';
+// import 'animate.css';
 
 
 const About = () =>  {
@@ -12,20 +12,21 @@ const About = () =>  {
             <div className="about " style={{marginTop: '10rem'}}>
                 <h2>About Me</h2>
                 <h3>What I do</h3>
-     
-                    <p className="about-text">
+                <p className="about-text">
                     I am a dedicated Front-End Developer deeply passionate about crafting 
                     captivating UI effects and animations <br />that elevate user experiences to
                     new heights. My work is characterized by meticulous organization, <br />
                     and a skill for problem-solving.
-                    </p>
 
-                    <p className="about-text">
+                </p>
+
+                <p className="about-text">
+                    
                     My enthusiasm for the entire spectrum of frontend development fuels my desire 
                     to take on ambitious projects alongside <br /> a team of positive and like-minded individuals.
                     I thrive in collaborative environments and eagerly anticipate the opportunity to <br />
                     contribute my skills to create remarkable digital experiences."
-                    </p>
+                </p>
             </div>
 
             <div className="flex-container">

@@ -302,13 +302,14 @@ animation: fade 3s ease-in-out infinite
   }
   
   .skills-logo{
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-top: 2rem;
   }
+
   .logo{
-    width: 6%;
-    height: 85px;
-    margin: 2.5rem;
+    width: 5%;
+    height: 80px;
+    margin: 2rem;
     border-radius: 50%;
     animation: roll 5s linear infinite, rotate 5s linear infinite;
   }
@@ -377,12 +378,14 @@ animation: fade 3s ease-in-out infinite
     width: 500px;
     height: 50px;
     outline-color: #ffb03b;
+    border-radius: 5px;
   }
   
   .textarea{
     width: 500px;
     height: 150px;
     outline-color: #ffb03b;
+    border-radius: 5px;
   }
   
   .formBtn{
@@ -394,12 +397,14 @@ animation: fade 3s ease-in-out infinite
   color: white;
   transition: all .3s ease-out;
   font-size: 1.2rem;
+  border-radius: 5px;
   }
   
   .formBtn:hover{
     background-color: #ffb03b;
     border: #ffb03b;
   }
+  
   /* FOOTER LOGO */
 
   .image{
