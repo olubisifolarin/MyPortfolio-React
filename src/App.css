@@ -157,12 +157,13 @@
   
   
   .carton{
-    width: 30%;
-    height: 450px;
+    width: 28%;
+    height: 420px;
     border-radius: 50%;
     position: absolute;
     float: left;
     margin-left: 14rem;
+    margin-top: 2rem;
     background-color: #ffb03b;
     animation-name: fadeInLeftBig;
     animation-duration: 1s; 
@@ -513,29 +514,39 @@ animation: fade 3s ease-in-out infinite
   }
   
   .carton{
-    margin-left: -1rem;
-    width: 75%;
+    width: 60%;
     height: 250px;
+    margin: auto;
+    margin-top: 15rem;
   }
   
-  .passion{
-    margin: 0;
-    font-size: 0.8rem;
-    font-weight: 500;
-    line-height: 1.3rem;
-    margin-bottom: 3rem;
-  }
+
+.cartonPic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+ 
+}
+
+.passion{
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.home-btn{
+  margin: 0;
+  text-align: center;
   
-  .home-btn{
-    margin: 0;
-    text-align: center;
-   
-  }
+}
 
   .CVButton{
     margin: 0;
     text-align: center;
-    margin-top: 25rem;
+    margin-top: 18rem;
     margin-bottom: -5rem;
   }
   
@@ -820,14 +831,14 @@ animation: fade 3s ease-in-out infinite
     
     .carton{
       height: 300px;
-      margin-left: 5rem;
-      margin-top: 2rem;
+      margin-left: 4rem;
+      margin-top: 5rem;
     }
     
     .pText{
       margin-top: 1.5rem;
     }
-    
+       
     .icon{
       margin-left: 5rem;  
     }
@@ -852,12 +863,13 @@ animation: fade 3s ease-in-out infinite
     }
 
     .nav-links{
-      margin-left: 28%;
+      margin-left: 20%;
     }
     
     .carton{
-      height: 400px;
+      height: 350px;
       margin-left: 10rem;
+      margin-top: 4rem;
     }
       
 
@@ -878,11 +890,7 @@ animation: fade 3s ease-in-out infinite
       font-size: 1.8rem;  
       margin-left: 7rem;
     }
-  
-    .carton {
-      margin-left: -2rem;
-    }
-  
+   
     .home-btn {
       width: 55%;
       margin-top: -2rem;
@@ -932,13 +940,13 @@ animation: fade 3s ease-in-out infinite
   
     .carton {
       margin-left: 0.5rem;
-      height: 400px;
-      margin-top: 2rem;
+      height: 300px;
+      margin-top: 20rem;
     }
   
     .home-btn {
       width: 55%;
-      margin-top: 10rem;
+      margin-top: 5rem;
   }
   
   .box-container {
