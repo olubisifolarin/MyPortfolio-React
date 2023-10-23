@@ -9,7 +9,7 @@ const Project = () => {
     return(
     <section id="project-header">
         <div className="projects">
-            <h2>My Portofolio</h2>
+            <h2>My Portfolio</h2>
             <h3>My works</h3>
         </div>
 

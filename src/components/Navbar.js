@@ -41,7 +41,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <HashLink smooth to="/#project-header" className="nav-link" onClick={closeMenu}>
-                            Portofolio
+                            Portfolio
                         </HashLink>
                     </li>
                     <HashLink smooth to="/#contact-header"><button className='btn'>Contact</button>

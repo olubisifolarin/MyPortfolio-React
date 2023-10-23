@@ -258,7 +258,7 @@ animation: fade 3s ease-in-out infinite
     height: 440px;
     width: 28%;
     color: white;
-    margin: 1.5rem;
+    margin: 1rem;
     padding: 2rem;
     transition: all .3s ease-out;
     margin-left: 2.8rem;
@@ -307,8 +307,8 @@ animation: fade 3s ease-in-out infinite
   }
 
   .logo{
-    width: 5%;
-    height: 60px;
+    width: 7%;
+    height: 70px;
     margin: 2rem;
     border-radius: 50%;
     animation: roll 5s linear infinite, rotate 5s linear infinite;
@@ -496,7 +496,7 @@ animation: fade 3s ease-in-out infinite
     float: right; 
     font-size: 2.5rem;  
     color: white;
-    margin-left: 10rem;
+    margin-left: 9rem;
   }
   
   .home, .box-container, .Tech-stack{
@@ -515,7 +515,7 @@ animation: fade 3s ease-in-out infinite
   .carton{
     margin-left: -1rem;
     width: 75%;
-    height: 300px;
+    height: 250px;
   }
   
   .passion{
@@ -527,8 +527,15 @@ animation: fade 3s ease-in-out infinite
   }
   
   .home-btn{
-    margin-top: 20rem;
-    margin-left: 4rem;
+    margin: 0;
+    text-align: center;
+   
+  }
+
+  .CVButton{
+    margin: 0;
+    text-align: center;
+    margin-top: 25rem;
     margin-bottom: -5rem;
   }
   
@@ -547,10 +554,6 @@ animation: fade 3s ease-in-out infinite
   
   .pText{
     margin-top: 2rem;
-  }
-  
-  .skills-logo{
-    margin-left: 2rem;
   }
   
   .Tech-stack{
@@ -652,7 +655,7 @@ animation: fade 3s ease-in-out infinite
      .carton{
        margin-left: 8rem;
        width: 60%;
-       height: 550px;
+       height: 500px;
      }
      
      .passion{
@@ -755,10 +758,16 @@ animation: fade 3s ease-in-out infinite
        font-size: 1.8rem;
      }
      
+     .cartonPic{
+      margin-left: 6rem;
+   
+     }
+
      .carton{
-       margin-left: 5rem;
        width: 60%;
-       height: 550px;
+       margin: 0 ;
+       justify-content: center;
+       margin-top: 2rem;
      }
      
      .passion{
@@ -766,7 +775,7 @@ animation: fade 3s ease-in-out infinite
      }
     
      .home-btn{
-       margin-top: 40rem;
+       margin-top: 35rem;
        margin-left: 17.5rem;
        margin-bottom: -5rem;
     
@@ -784,11 +793,7 @@ animation: fade 3s ease-in-out infinite
     .pText{
       margin-top: 2rem;
     }
-    
-    .skills-logo{
-      margin-left: 2rem;
-    }
-    
+        
     .Tech-stack{
      width: 1400px; 
     }
@@ -802,13 +807,19 @@ animation: fade 3s ease-in-out infinite
   }
   
   @media (min-width: 1010px) and (max-width: 1024px) {
+    html, body{
+      overflow-x: hidden; 
+      scroll-behavior: smooth;
+      width: 100%;
+    }
+
     .nav-links{
       gap: 2rem;
-      margin-left: 20%;
+      margin-left: 18%;
     }
     
     .carton{
-      height: 350px;
+      height: 300px;
       margin-left: 5rem;
       margin-top: 2rem;
     }
@@ -820,12 +831,36 @@ animation: fade 3s ease-in-out infinite
     .icon{
       margin-left: 5rem;  
     }
+
+    .box-container{
+      width: 27%;
+      height: 550px;
+     }
     
     .projectBtn{
       margin-left: 6rem;
       width: 40%;
     }
   
+  }
+
+  @media (min-width: 1225px) and (max-width: 1280px){
+    html, body{
+      overflow-x: hidden; 
+      scroll-behavior: smooth;
+      width: 100%;
+    }
+
+    .nav-links{
+      margin-left: 28%;
+    }
+    
+    .carton{
+      height: 400px;
+      margin-left: 10rem;
+    }
+      
+
   }
   
   @media (min-width: 250px) and (max-width: 320px){
@@ -850,6 +885,7 @@ animation: fade 3s ease-in-out infinite
   
     .home-btn {
       width: 55%;
+      margin-top: -2rem;
   }
   
   .box-title{
@@ -897,12 +933,12 @@ animation: fade 3s ease-in-out infinite
     .carton {
       margin-left: 0.5rem;
       height: 400px;
+      margin-top: 2rem;
     }
   
     .home-btn {
       width: 55%;
-      margin-top: 28rem;
-      margin-left: 7.5rem;
+      margin-top: 10rem;
   }
   
   .box-container {

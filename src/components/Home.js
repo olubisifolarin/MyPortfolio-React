@@ -13,14 +13,14 @@ const Home = () => {
                         <p className="passion">"I specialize in the art of creating extraordinary websites" </p>
                     </div>
 
-                    <div className="">
+                    <div className="cartonPic">
                         <img src={girlCarton} className="carton " alt="MyPicture" />
                     </div>
                    
                 </div>
-
-                <a href={UpdatedCV}><button className='home-btn'>RESUME</button></a>
-                
+                <div className="CVButton">
+                    <a href={UpdatedCV}><button className='home-btn'>RESUME</button></a>
+                </div>     
             </section>
     )
 }
