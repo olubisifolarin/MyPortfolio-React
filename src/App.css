@@ -259,7 +259,7 @@ animation: fade 3s ease-in-out infinite
     height: 440px;
     width: 28%;
     color: white;
-    margin: 1rem;
+    margin-top: 1rem;
     padding: 2rem;
     transition: all .3s ease-out;
     margin-left: 2.8rem;
@@ -880,14 +880,11 @@ animation: fade 3s ease-in-out infinite
       margin-top: 4rem;
     }
 
-    .about{
-      margin-left: -4rem;
-    }
-
     .box-container{
-     margin-left: 2rem;
      width: 25%;
      height: 480px;
+     margin-left: 3rem;
+  
     } 
 
     .about-text{
@@ -897,18 +894,14 @@ animation: fade 3s ease-in-out infinite
     .icon{
       margin-left: 6rem;  
     }
-
-    .skills-logo{
-      margin: 0;
-    }
     
     .Tech-stack{
-     width: 1000px; 
+     width: 1050px; 
     }
 
     .project-container{
-     width: 35%;
-    margin: 2rem;
+     width: 39%;
+     margin: 2rem;
     }
 
     .projectBtn{
