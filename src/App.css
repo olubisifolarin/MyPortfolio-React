@@ -256,7 +256,7 @@ animation: fade 3s ease-in-out infinite
     border: 2px solid white;
     display: inline-flex;
     flex-wrap: wrap;
-    height: 440px;
+    height: 500px;
     width: 28%;
     color: white;
     margin-top: 1rem;
@@ -517,7 +517,7 @@ animation: fade 3s ease-in-out infinite
     width: 60%;
     height: 250px;
     margin: auto;
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
   
 
@@ -546,7 +546,7 @@ animation: fade 3s ease-in-out infinite
   .CVButton{
     margin: 0;
     text-align: center;
-    margin-top: 18rem;
+    margin-top: 19rem;
     margin-bottom: -5rem;
   }
   

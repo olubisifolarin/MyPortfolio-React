@@ -44,7 +44,7 @@ const About = () =>  {
                 />
 
                 <Box 
-                icon = {<h1> <MdOutlineDesignServices /></h1>}
+                icon = {<h1><FcSmartphoneTablet /></h1>}
                  title = {
                     <h1>Responsive Design</h1>
                  }
@@ -57,7 +57,7 @@ const About = () =>  {
                 />
                 
                 <Box 
-                icon= {<h1><FcSmartphoneTablet /></h1>}
+                icon= {<h1><MdOutlineDesignServices /></h1>}
                  title = {
                     <h1>Problem Solving</h1>
                  }
